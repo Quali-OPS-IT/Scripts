@@ -12,7 +12,7 @@ $StringSet = $StringSet -replace " ",""
 Write-Host $StringSet
 
 Rename-Computer -NewName  $StringSet
-Restart-Computer
+
 
 
 
